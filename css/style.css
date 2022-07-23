@@ -1,0 +1,96 @@
+body {
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.level-select {
+    background-color: antiquewhite;
+    margin-top: 5%;
+    height: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    padding: 10px;
+    text-overflow: clip;
+}
+
+a {
+    border: 4px solid black;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+#easy {
+    background-color: rgb(12, 251, 12);
+}
+
+#expert {
+    background-color: rgb(231, 40, 40);
+}
+
+#medium {
+    background-color: rgb(25, 133, 25);
+}
+
+.time-box {
+    background-color: antiquewhite;
+    margin-top: 5%;
+    height: auto;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+}
+
+
+span {
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+table {
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 4px solid black;
+    padding: auto;
+}
+
+.grid {
+    margin-top: 10%;
+}
+
+.tile {
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+.closed-tile {
+    background-color: gray;
+}
+
+.with-num {
+    background-color: rgb(89, 223, 27);
+}
+
+.empty {
+    background-color: rgba(214, 237, 218, 0.422);
+}
+
+.with-mine {
+    background-color: rgb(243, 57, 57);
+}
+
+#win {
+    display: none;
+}
+
+#lose {
+    display: none;
+}

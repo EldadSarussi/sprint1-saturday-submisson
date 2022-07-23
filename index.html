@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/util.js"></script>
+    <script src="js/game.js"></script>
+    <title>minesweeper</title>
+</head>
+
+<body onload="initGame()">
+    <div class="level-select">
+        <h2>select Level</h2>
+        <a id="easy" onclick="chooseLevel(1)">beginner</a>  <a id="medium" onclick="chooseLevel(2)">medium</a> <a id="expert" onclick="chooseLevel(3)">expert</a>
+    </div>
+    <div class="score-box">
+        <h2 id="win" on click="init()">you win, play again?</h2>
+        <h2 id="lose" onclick="init()">you lost, play again?</h2>
+
+    </div>
+    <div class="time-box">
+        <h3>Game time <span id="timer">0.0</span>sec</h3>
+        <h2 class="lifes-left"><span id="lifes"></span></h2>
+    </div>
+    <table class="game-container">
+        <tbody class="grid"></tbody>
+    </table>
+    <button class="flag" onclick="toggleFlag()">flag</button>
+</body>
+
+</html>
